@@ -1,0 +1,22 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t lwolfmayr/react-test -f ./client Dockerfile.dev ./client
+
+script:
+  - docker run lwolfmayr/react-test npm test -- --coverage
+
+after_success:
+  - docker build -t lwolfmayr/multi-client ./client
+  - docker build -t lwolfmayr/multi-worker ./worker
+  - docker build -t lwolfmayr/multi-server ./server
+  - docker build -t lwolfmayr/multi-nginx ./nginx
+  # Log in to docker CLI
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+  # push imaes to dockerhub
+  - docker push lwolfmayr/multi-client
+  - docker push lwolfmayr/multi-server
+  - docker push lwolfmayr/multi-worker
+  - docker push lwolfmayr/multi-nginx
