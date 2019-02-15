@@ -1,4 +1,4 @@
-docker build -t lwolfmayr/multi-client:latest -t lwolfmayr/multi-client:$SHA -f ./cli ent/Dockerfile ./client
+docker build -t lwolfmayr/multi-client:latest -t lwolfmayr/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t lwolfmayr/multi-server:latest -t lwolfmayr/multi-server:$SHA -f ./server/Dockerfile ./server
 docker build -t lwolfmayr/multi-worker:latest -t lwolfmayr/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
