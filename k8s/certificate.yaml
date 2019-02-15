@@ -7,7 +7,7 @@ spec:
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
-  commonName: wolfmayr.net
+  commonName: multi-k8s.wolfmayr.net
   dnsNames:
     - multi-k8s.wolfmayr.net
     - www.multi-k8s.wolfmayr.net
