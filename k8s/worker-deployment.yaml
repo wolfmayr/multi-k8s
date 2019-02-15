@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: worker-deployment
 spec:
-  replicas: 1  
+  replicas: 1
   selector:
     matchLabels:
       component: worker
@@ -19,5 +19,4 @@ spec:
             - name: REDIS_HOST
               value: redis-cluster-ip-service
             - name: REDIS_PORT
-              value: "6379"
-  
+              value: '6379'
