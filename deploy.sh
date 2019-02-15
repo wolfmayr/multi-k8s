@@ -10,6 +10,7 @@
 #docker push lwolfmayr/multi-server:$SHA
 #docker push lwolfmayr/multi-worker:$SHA
 
+# apply stephengrider for testing
 kubectl apply -f k8s
 kubectl set image deployments/server-deployment server=stephengrider/multi-server:latest
 kubectl set image deployments/client-deployment client=stephengrider/multi-client:latest
