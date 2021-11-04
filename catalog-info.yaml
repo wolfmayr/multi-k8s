@@ -4,14 +4,13 @@ metadata:
   name: test-service
   description: test service
   annotations:
-    argocd/app-name: ssr-service-prod
+    argocd/app-name: test-service
   links:
-    - url: https://confluence.xxxlgroup.com/x/pgmQFw
-      title: ECO Confluence
+    - url: https://google.com
+      title: test link
   tags:
     - java
-    - vertx
 spec:
   type: service
   lifecycle: production
-  owner: ecom-cloud-engineers
+  owner: developers
