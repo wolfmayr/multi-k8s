@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-service
+  description: test service
+  annotations:
+    argocd/app-name: ssr-service-prod
+  links:
+    - url: https://confluence.xxxlgroup.com/x/pgmQFw
+      title: ECO Confluence
+  tags:
+    - java
+    - vertx
+spec:
+  type: service
+  lifecycle: production
+  owner: ecom-cloud-engineers
