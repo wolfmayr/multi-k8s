@@ -4,7 +4,7 @@ metadata:
   name: test-service
   description: test service
   annotations:
-    argocd/app-name: test-service
+    argocd/app-name: ssr-service-prod
   links:
     - url: https://google.com
       title: test link
