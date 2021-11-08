@@ -5,7 +5,7 @@ metadata:
   description: test service
   annotations:
 #    argocd/app-name: cert-manager-play
-    argocd/app-selector: "name=argo-rollouts"
+    argocd/app-selector: "backstage-id=argo-rollouts"
   links:
     - url: https://google.com
       title: test link
