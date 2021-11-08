@@ -4,7 +4,7 @@ metadata:
   name: test-service
   description: test service
   annotations:
-    argocd/app-selector: applications-play
+    argocd/app-name: cert-manager-play
   links:
     - url: https://google.com
       title: test link
