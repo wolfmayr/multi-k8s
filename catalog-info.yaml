@@ -6,7 +6,7 @@ metadata:
   annotations:
 #    argocd/app-name: cert-manager-play
 #    argocd/app-selector: "backstage\.io\/kubernetes-id=argo-rollouts"
-    argocd/app-selector: "backstage\/id=argo-rollouts"
+#    argocd/app-selector: "backstage\/id=argo-rollouts"
     argocd/app-selector: "backstage.id=argo-rollouts"    
   links:
     - url: https://google.com
