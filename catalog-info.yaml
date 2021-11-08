@@ -5,7 +5,7 @@ metadata:
   description: test service
   annotations:
 #    argocd/app-name: cert-manager-play
-    argocd/app-selector: "app.kubernetes.io/instance: applications-play"
+    argocd/app-selector: "app.kubernetes.io/instance=applications-play"
   links:
     - url: https://google.com
       title: test link
