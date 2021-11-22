@@ -1,0 +1,364 @@
+{
+  "quadrants": [
+    { "id": "languages", "name": "Languages" },
+    { "id": "infrastructure", "name": "Infrastructure" },
+    { "id": "frameworks", "name": "Frameworks" },
+    { "id": "data-management", "name": "Data Management" }
+  ],
+  "rings": [
+    { "id": "adopt", "name": "ADOPT", "color": "#93c47d" },
+    { "id": "trial", "name": "TRIAL", "color": "#93d2c2" },
+    { "id": "assess", "name": "ASSESS", "color": "#fbdb84" },
+    { "id": "hold", "name": "HOLD", "color": "#efafa9" }
+  ],
+  "entries": [
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Java",
+      "id": "Java",
+      "key": "Java"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Groovy",
+      "id": "Groovy",
+      "key": "Groovy"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Gradle",
+      "id": "Gradle",
+      "key": "Gradle"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Javascript",
+      "id": "Javascript",
+      "key": "Javascript"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Typescript",
+      "id": "Typescript",
+      "key": "Typescript"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "SQL",
+      "id": "SQL",
+      "key": "SQL"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "trial",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Python",
+      "id": "Python",
+      "key": "Python"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "reStructuredText",
+      "id": "reStructuredText",
+      "key": "reStructuredText"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "Spring",
+      "id": "Spring",
+      "key": "Spring"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "NodeJS",
+      "id": "NodeJS",
+      "key": "NodeJS"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "Angular",
+      "id": "Angular",
+      "key": "Angular"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "React",
+      "id": "React",
+      "key": "React"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "Resilience4j",
+      "id": "Resilience4j",
+      "key": "Resilience4j"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "Activitii",
+      "id": "Activitii",
+      "key": "Activitii"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "Open API (Swagger)",
+      "id": "Open API (Swagger)",
+      "key": "Open API (Swagger)"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "data-management",
+      "title": "mySQL (Percona)",
+      "id": "mySQL (Percona)",
+      "key": "mySQL (Percona)"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "data-management",
+      "title": "Hazelcast",
+      "id": "Hazelcast",
+      "key": "Hazelcast"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "data-management",
+      "title": "ActiveMQ",
+      "id": "ActiveMQ",
+      "key": "ActiveMQ"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "data-management",
+      "title": "SolR",
+      "id": "SolR",
+      "key": "SolR"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "Varnish",
+      "id": "Varnish",
+      "key": "Varnish"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "Git",
+      "id": "Git",
+      "key": "Git"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "Salt",
+      "id": "Salt",
+      "key": "Salt"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": -1
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "Dynatrace",
+      "id": "Dynatrace",
+      "key": "Dynatrace"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "Docker",
+      "id": "Docker",
+      "key": "Docker"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "Jenkins",
+      "id": "Jenkins",
+      "key": "Jenkins"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "Sonar",
+      "id": "Sonar",
+      "key": "Sonar"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "Squid",
+      "id": "Squid",
+      "key": "Squid"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "HAProxy",
+      "id": "HAProxy",
+      "key": "HAProxy"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "Nginx",
+      "id": "Nginx",
+      "key": "Nginx"
+    }
+  ]
+}
