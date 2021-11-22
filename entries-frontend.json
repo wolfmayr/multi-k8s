@@ -1,0 +1,832 @@
+{
+  "quadrants": [
+    { "id": "languages", "name": "Languages" },
+    { "id": "infrastructure", "name": "Infrastructure" },
+    { "id": "frameworks", "name": "Frameworks" },
+    { "id": "data-management", "name": "Data Management" }
+  ],
+  "rings": [
+    { "id": "adopt", "name": "ADOPT", "color": "#93c47d" },
+    { "id": "trial", "name": "TRIAL", "color": "#93d2c2" },
+    { "id": "assess", "name": "ASSESS", "color": "#fbdb84" },
+    { "id": "hold", "name": "HOLD", "color": "#efafa9" }
+  ],
+  "entries": [
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "data-management",
+      "title": "YARN",
+      "id": "YARN",
+      "key": "YARN"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "data-management",
+      "title": "Redis",
+      "id": "Redis",
+      "key": "Redis"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": 0
+        }
+      ],
+      "quadrant": "data-management",
+      "title": "Solr",
+      "id": "Solr",
+      "key": "Solr"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "moved": 0
+        }
+      ],
+      "quadrant": "data-management",
+      "title": "Consul",
+      "id": "Consul",
+      "key": "Consul"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": 0
+        }
+      ],
+      "quadrant": "data-management",
+      "title": "MongoDB",
+      "id": "MongoDB",
+      "key": "MongoDB"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "data-management",
+      "title": "MySQL",
+      "id": "MySQL",
+      "key": "MySQL"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "moved": 0
+        }
+      ],
+      "quadrant": "data-management",
+      "title": "ZooKeeper",
+      "id": "ZooKeeper",
+      "key": "ZooKeeper"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "Node.js",
+      "id": "Node.js",
+      "key": "Node.js"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "OpenAPI (Swagger)",
+      "id": "OpenAPI (Swagger)",
+      "key": "OpenAPI (Swagger)"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "ReactJS",
+      "id": "ReactJS",
+      "key": "ReactJS"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "Spring",
+      "id": "Spring",
+      "key": "Spring"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "trial",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "AspectJ",
+      "id": "AspectJ",
+      "key": "AspectJ"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "Akka-Http",
+      "id": "Akka-Http",
+      "key": "Akka-Http"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "Aurelia",
+      "id": "Aurelia",
+      "key": "Aurelia"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "Ember.js",
+      "id": "Ember.js",
+      "key": "Ember.js"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "gRPC",
+      "id": "gRPC",
+      "key": "gRPC"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "Http4s",
+      "id": "Http4s",
+      "key": "Http4s"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": 1
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "jOOQ",
+      "id": "jOOQ",
+      "key": "jOOQ"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "Redux",
+      "id": "Redux",
+      "key": "Redux"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "Vert.x",
+      "id": "Vert.x",
+      "key": "Vert.x"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": 1
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "Vue.js",
+      "id": "Vue.js",
+      "key": "Vue.js"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "Activiti",
+      "id": "Activiti",
+      "key": "Activiti"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "AngularJS 1.x",
+      "id": "AngularJS 1.x",
+      "key": "AngularJS 1.x"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "BackboneJS",
+      "id": "BackboneJS",
+      "key": "BackboneJS"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "Drools",
+      "id": "Drools",
+      "key": "Drools"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "moved": 0
+        }
+      ],
+      "quadrant": "frameworks",
+      "title": "Spray",
+      "id": "Spray",
+      "key": "Spray"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "Docker",
+      "id": "Docker",
+      "key": "Docker"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "HAProxy",
+      "id": "HAProxy",
+      "key": "HAProxy"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "Hystrix",
+      "id": "Hystrix",
+      "key": "Hystrix"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "Jetty",
+      "id": "Jetty",
+      "key": "Jetty"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "Kubernetes",
+      "id": "Kubernetes",
+      "key": "Kubernetes"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "Nginx",
+      "id": "Nginx",
+      "key": "Nginx"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "STUPS",
+      "id": "STUPS",
+      "key": "STUPS"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "Tomcat",
+      "id": "Tomcat",
+      "key": "Tomcat"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "ZMON",
+      "id": "ZMON",
+      "key": "ZMON"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "trial",
+          "moved": 1
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "Failsafe",
+      "id": "Failsafe",
+      "key": "Failsafe"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "trial",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "Undertow",
+      "id": "Undertow",
+      "key": "Undertow"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": 0
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "AWS Lambda",
+      "id": "AWS Lambda",
+      "key": "AWS Lambda"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": 1
+        }
+      ],
+      "quadrant": "infrastructure",
+      "title": "OpenTracing",
+      "id": "OpenTracing",
+      "key": "OpenTracing"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Go",
+      "id": "Go",
+      "key": "Go"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Java",
+      "id": "Java",
+      "key": "Java"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "JavaScript",
+      "id": "JavaScript",
+      "key": "JavaScript"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Python",
+      "id": "Python",
+      "key": "Python"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Scala",
+      "id": "Scala",
+      "key": "Scala"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Swift",
+      "id": "Swift",
+      "key": "Swift"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "trial",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Clojure",
+      "id": "Clojure",
+      "key": "Clojure"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "trial",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "TypeScript",
+      "id": "TypeScript",
+      "key": "TypeScript"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Elm",
+      "id": "Elm",
+      "key": "Elm"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Haskell",
+      "id": "Haskell",
+      "key": "Haskell"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Kotlin",
+      "id": "Kotlin",
+      "key": "Kotlin"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "R",
+      "id": "R",
+      "key": "R"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Rust",
+      "id": "Rust",
+      "key": "Rust"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "C languages",
+      "id": "C languages",
+      "key": "C languages"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "CoffeeScript",
+      "id": "CoffeeScript",
+      "key": "CoffeeScript"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Erlang",
+      "id": "Erlang",
+      "key": "Erlang"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Groovy",
+      "id": "Groovy",
+      "key": "Groovy"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": ".NET languages",
+      "id": ".NET languages",
+      "key": ".NET languages"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Perl",
+      "id": "Perl",
+      "key": "Perl"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "PHP",
+      "id": "PHP",
+      "key": "PHP"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "moved": 0
+        }
+      ],
+      "quadrant": "languages",
+      "title": "Ruby",
+      "id": "Ruby",
+      "key": "Ruby"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "data-management",
+      "title": "AWS SNS",
+      "id": "AWS SNS",
+      "key": "AWS SNS"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "data-management",
+      "title": "AWS SQS",
+      "id": "AWS SQS",
+      "key": "AWS SQS"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "data-management",
+      "title": "Kafka",
+      "id": "Kafka",
+      "key": "Kafka"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "moved": 0
+        }
+      ],
+      "quadrant": "data-management",
+      "title": "Nakadi",
+      "id": "Nakadi",
+      "key": "Nakadi"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "assess",
+          "moved": 0
+        }
+      ],
+      "quadrant": "data-management",
+      "title": "AWS Kinesis",
+      "id": "AWS Kinesis",
+      "key": "AWS Kinesis"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "moved": 0
+        }
+      ],
+      "quadrant": "data-management",
+      "title": "ActiveMQ",
+      "id": "ActiveMQ",
+      "key": "ActiveMQ"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "moved": 0
+        }
+      ],
+      "quadrant": "data-management",
+      "title": "HornetQ",
+      "id": "HornetQ",
+      "key": "HornetQ"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "moved": 0
+        }
+      ],
+      "quadrant": "data-management",
+      "title": "RabbitMQ",
+      "id": "RabbitMQ",
+      "key": "RabbitMQ"
+    }
+  ]
+}
