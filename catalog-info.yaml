@@ -11,6 +11,6 @@ metadata:
   tags:
     - java
 spec:
-  type: service
+  type: infrastructure
   lifecycle: production
   owner: developers
