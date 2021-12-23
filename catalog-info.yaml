@@ -11,6 +11,6 @@ metadata:
   tags:
     - java
 spec:
-  type: third-party-service
+  type: externally-developed
   lifecycle: production
   owner: developers
